@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">GulfLens interface preview</title>
+  <desc id="desc">A polished preview of GulfLens comparing Dubai and Abu Dhabi for a local market-entry scenario.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07171d"/>
+      <stop offset="0.58" stop-color="#0c2730"/>
+      <stop offset="1" stop-color="#0e444d"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#62cdd0" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#68d1ae" stop-opacity=".05"/>
+    </linearGradient>
+    <linearGradient id="scoreA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#126f78"/>
+      <stop offset="1" stop-color="#62cdd0"/>
+    </linearGradient>
+    <linearGradient id="scoreB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#21476f"/>
+      <stop offset="1" stop-color="#80add8"/>
+    </linearGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="#d8edeb" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="26" stdDeviation="28" flood-color="#000" flood-opacity=".34"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0c2730" flood-opacity=".12"/>
+    </filter>
+    <clipPath id="windowClip">
+      <rect x="690" y="72" width="670" height="616" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1440" height="760" rx="28" fill="url(#bg)"/>
+  <rect width="1440" height="760" rx="28" fill="url(#grid)"/>
+  <circle cx="151" cy="84" r="290" fill="url(#glow)" opacity=".55"/>
+  <circle cx="584" cy="758" r="330" fill="#126f78" opacity=".1"/>
+  <path d="M79 632c164-61 267-36 387 26 65 34 127 42 188 16" fill="none" stroke="#68d1ae" stroke-opacity=".13" stroke-width="2"/>
+
+  <g transform="translate(80 74)">
+    <g>
+      <rect width="56" height="56" rx="17" fill="#d8edeb"/>
+      <circle cx="28" cy="28" r="15" fill="none" stroke="#126f78" stroke-width="5"/>
+      <path d="M37 39l10 10" fill="none" stroke="#126f78" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <text x="74" y="25" fill="#f2f7f4" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="25" font-weight="700" letter-spacing="1.2">GULFLENS</text>
+    <text x="74" y="47" fill="#9fc1bf" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="2.4">UAE MARKET ENTRY</text>
+  </g>
+
+  <g transform="translate(80 210)">
+    <rect width="294" height="34" rx="17" fill="#18343d" stroke="#31545a"/>
+    <circle cx="18" cy="17" r="5" fill="#68d1ae"/>
+    <text x="32" y="22" fill="#b9cfcd" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">DUBAI + ABU DHABI</text>
+
+    <text y="104" fill="#f2f7f4" font-family="Georgia, ui-serif, serif" font-size="60" font-weight="600">Turn UAE market</text>
+    <text y="171" fill="#f2f7f4" font-family="Georgia, ui-serif, serif" font-size="60" font-weight="600">entry into a clear,</text>
+    <text y="238" fill="#6ed2c3" font-family="Georgia, ui-serif, serif" font-size="60" font-weight="600">confident decision.</text>
+
+    <text y="294" fill="#b9c9c8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20">A guided, multilingual assessment for comparing</text>
+    <text y="324" fill="#b9c9c8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20">UAE market-entry routes, city fit and trade-offs.</text>
+
+    <g transform="translate(0 372)">
+      <rect width="132" height="42" rx="21" fill="#122a32" stroke="#29444c"/>
+      <text x="66" y="27" text-anchor="middle" fill="#d9e8e5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600">Android</text>
+      <rect x="144" width="148" height="42" rx="21" fill="#122a32" stroke="#29444c"/>
+      <text x="218" y="27" text-anchor="middle" fill="#d9e8e5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600">Web / Wasm</text>
+      <rect x="304" width="132" height="42" rx="21" fill="#122a32" stroke="#29444c"/>
+      <text x="370" y="27" text-anchor="middle" fill="#d9e8e5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600">Desktop</text>
+    </g>
+    <text y="466" fill="#7fa5a5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600" letter-spacing="1.4">ENGLISH  ·  中文  ·  العربية</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="690" y="72" width="670" height="616" rx="28" fill="#f2f6f4"/>
+    <g clip-path="url(#windowClip)">
+      <rect x="690" y="72" width="670" height="72" fill="#0c2730"/>
+      <circle cx="724" cy="108" r="6" fill="#ff8b7e"/>
+      <circle cx="746" cy="108" r="6" fill="#f0c06a"/>
+      <circle cx="768" cy="108" r="6" fill="#68d1ae"/>
+      <g transform="translate(806 94)">
+        <circle cx="14" cy="14" r="9" fill="none" stroke="#6ed2c3" stroke-width="3"/>
+        <path d="M20 21l7 7" stroke="#6ed2c3" stroke-width="3" stroke-linecap="round"/>
+      </g>
+      <text x="846" y="115" fill="#f2f7f4" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" letter-spacing=".8">GulfLens</text>
+      <rect x="1175" y="92" width="78" height="32" rx="16" fill="#18343d"/>
+      <text x="1214" y="113" text-anchor="middle" fill="#cfe3e0" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600">English</text>
+      <rect x="1264" y="92" width="58" height="32" rx="16" fill="#18343d"/>
+      <path d="M1293 100a8 8 0 1 0 8 8 7 7 0 0 1-8-8z" fill="#8db5b2"/>
+
+      <text x="730" y="192" fill="#0c2730" font-family="Georgia, ui-serif, serif" font-size="31" font-weight="600">Dubai and Abu Dhabi, side by side.</text>
+      <text x="730" y="220" fill="#5c7074" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14">Compare weighted city fit with the signals that shape each market in practice.</text>
+
+      <g transform="translate(730 243)">
+        <rect width="58" height="26" rx="13" fill="#e5eeea"/>
+        <text x="29" y="17" text-anchor="middle" fill="#33565a" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700">CAVA</text>
+        <rect x="68" width="155" height="26" rx="13" fill="#e5eeea"/>
+        <text x="145.5" y="17" text-anchor="middle" fill="#33565a" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700">LOCAL OPERATIONS</text>
+        <rect x="233" width="96" height="26" rx="13" fill="#d8edeb"/>
+        <text x="281" y="17" text-anchor="middle" fill="#126f78" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="700">5 GROUPS</text>
+      </g>
+
+      <g filter="url(#softShadow)">
+        <rect x="730" y="290" width="278" height="122" rx="20" fill="#fcfefd" stroke="#cadbd6"/>
+        <text x="754" y="323" fill="#5c7074" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">DUBAI</text>
+        <text x="754" y="374" fill="#0c2730" font-family="Georgia, ui-serif, serif" font-size="48" font-weight="600">79.6</text>
+        <text x="858" y="373" fill="#5c7074" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14">/ 100</text>
+        <rect x="754" y="391" width="224" height="7" rx="3.5" fill="#dce8e4"/>
+        <rect x="754" y="391" width="178" height="7" rx="3.5" fill="url(#scoreA)"/>
+
+        <rect x="1022" y="290" width="298" height="122" rx="20" fill="#fcfefd" stroke="#cadbd6"/>
+        <text x="1046" y="323" fill="#5c7074" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">ABU DHABI</text>
+        <text x="1046" y="374" fill="#0c2730" font-family="Georgia, ui-serif, serif" font-size="48" font-weight="600">78.9</text>
+        <text x="1150" y="373" fill="#5c7074" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14">/ 100</text>
+        <rect x="1046" y="391" width="244" height="7" rx="3.5" fill="#dce8e4"/>
+        <rect x="1046" y="391" width="192" height="7" rx="3.5" fill="url(#scoreB)"/>
+      </g>
+
+      <g transform="translate(730 438)">
+        <rect width="590" height="174" rx="20" fill="#fcfefd" stroke="#cadbd6"/>
+        <text x="24" y="31" fill="#0c2730" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700">Decision-group scores</text>
+        <circle cx="425" cy="26" r="5" fill="#2c9da0"/>
+        <text x="437" y="30" fill="#5c7074" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="11">Dubai</text>
+        <circle cx="493" cy="26" r="5" fill="#628fbd"/>
+        <text x="505" y="30" fill="#5c7074" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="11">Abu Dhabi</text>
+
+        <g font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#5c7074">
+          <text x="24" y="62">Regulation</text>
+          <text x="24" y="86">Cost</text>
+          <text x="24" y="110">Opportunity</text>
+          <text x="24" y="134">Operations</text>
+          <text x="24" y="158">Talent</text>
+        </g>
+        <g>
+          <rect x="128" y="53" width="350" height="8" rx="4" fill="#e5eeea"/>
+          <rect x="128" y="53" width="270" height="8" rx="4" fill="#2c9da0"/>
+          <rect x="128" y="64" width="273" height="4" rx="2" fill="#628fbd"/>
+          <rect x="128" y="77" width="350" height="8" rx="4" fill="#e5eeea"/>
+          <rect x="128" y="77" width="238" height="8" rx="4" fill="#2c9da0"/>
+          <rect x="128" y="88" width="287" height="4" rx="2" fill="#628fbd"/>
+          <rect x="128" y="101" width="350" height="8" rx="4" fill="#e5eeea"/>
+          <rect x="128" y="101" width="294" height="8" rx="4" fill="#2c9da0"/>
+          <rect x="128" y="112" width="252" height="4" rx="2" fill="#628fbd"/>
+          <rect x="128" y="125" width="350" height="8" rx="4" fill="#e5eeea"/>
+          <rect x="128" y="125" width="308" height="8" rx="4" fill="#2c9da0"/>
+          <rect x="128" y="136" width="294" height="4" rx="2" fill="#628fbd"/>
+          <rect x="128" y="149" width="350" height="8" rx="4" fill="#e5eeea"/>
+          <rect x="128" y="149" width="301" height="8" rx="4" fill="#2c9da0"/>
+          <rect x="128" y="160" width="280" height="4" rx="2" fill="#628fbd"/>
+        </g>
+        <rect x="496" y="49" width="70" height="112" rx="14" fill="#dff1e8"/>
+        <text x="531" y="84" text-anchor="middle" fill="#1b7c66" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="9" font-weight="700">NEAR TIE</text>
+        <text x="531" y="118" text-anchor="middle" fill="#0c2730" font-family="Georgia, ui-serif, serif" font-size="28" font-weight="600">0.7</text>
+        <text x="531" y="141" text-anchor="middle" fill="#5c7074" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="9">point gap</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(1065 700)">
+    <circle cx="8" cy="8" r="8" fill="#68d1ae"/>
+    <path d="M4 8l3 3 5-6" fill="none" stroke="#07171d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="24" y="13" fill="#8eb1af" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">SHARED COMPOSE UI · LOCAL-FIRST</text>
+  </g>
+</svg>
